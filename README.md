@@ -1,34 +1,20 @@
 <!--
-  Title: FIFA 19 WebApp API
-  Description: A simply way to manage your FIFA 19 Ultimate Team with a PHP framework..
+  Title: fifa 20 WebApp API
+  Description: A simply way to manage your fifa 20 Ultimate Team with a PHP framework..
   Author: Curtis Crewe
   Website: curtiscrewe.co.uk
   -->
 
-FIFA 19 WebApp API
+fifa 20 WebApp API
 =============
 
-Manage your FIFA 19 Ultimate Team using this FIFA 19 Ultimate Team API.
+Manage your fifa 20 Ultimate Team using this fifa 20 Ultimate Team API.
 Written solely in PHP
-
-FIFA 19 Autobuyer
-=============
-
-Written using this API you can find a completed FIFA 19 Autobuyer here: [FUT19 Buyer](https://github.com/InkedCurtis/FUT19-Buyer)
-
-FIFA 19 Projects
-=============
-
-If you require any projects/systems to be developed alongside the FIFA 19 WebApp API then be sure to contact me using one of the methods below.
-
-Skype: <strong>bws-curtis</strong><br/>
-Email: <strong>wscrewey@hotmail.com</strong><br/>
-Website: <strong>https://curtiscrewe.co.uk</strong>
 
 Installing FUTApi
 =======
 
-The recommended way to install FIFA 19 WebApp API is through
+The recommended way to install fifa 20 WebApp API is through
 [Composer](http://getcomposer.org).
 
 ```bash
@@ -67,8 +53,8 @@ Login
 
 Login parameters:
 
-- email: [string] email used for logging into the FIFA 19 WebApp
-- password: [string] password used for logging into the FIFA 19 WebApp
+- email: [string] email used for logging into the fifa 20 WebApp
+- password: [string] password used for logging into the fifa 20 WebApp
 - platform: [string] pc/ps4/ps4/xbox/xbox360
 - code: [string] email/sms code for two-step verification (make sure to use string if your code starts with 0).
 - emulate: [string] currently DISABLED.
