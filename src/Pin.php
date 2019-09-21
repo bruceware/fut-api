@@ -38,8 +38,8 @@ class Pin
 
         $this->taxv = '1.1';
         $this->tidt = 'easku';
-        $this->sku = sku; # or re.search('enums.SKU.FUT="(.+?)"', rc).group(1)
-        $this->rel = release_type;
+        $this->sku = 'FUT20WEB'; # or re.search('enums.SKU.FUT="(.+?)"', rc).group(1)
+        $this->rel = 'prod';
         $this->gid = '0';
         $this->plat = 'web';  # where is it? WEB:?
         $this->et = 'client';
