@@ -725,10 +725,9 @@ class Core
 
     public function pileSize()
     {
-        $data = $this->__usermassinfo['pileSizeClientData']['entries'];
         return [
-            'tradepile' => $data[0]['value'],
-            'watchlist' => $data[2]['value']
+            'tradepile' => 100,
+            'watchlist' => 100
         ];
     }
 
