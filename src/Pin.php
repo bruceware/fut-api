@@ -20,7 +20,7 @@ class Pin
         $this->dob = $dob;
         $this->platform = $platform;
 
-        //pinvars
+        /*pinvars
         $response = (new Client)->get("https://www.easports.com/fifa/ultimate-team/web-app/js/compiled_1.js")->getBody();
 
         $this->taxv = $m[preg_match('/taxv:"(.+?)"/', $response, $m)];
@@ -33,6 +33,18 @@ class Pin
         $this->et = $m[preg_match('/et:"(.+?)"/', $response, $m)];
         $this->pidt = $m[preg_match('/pidt:"(.+?)"/', $response, $m)];
         $this->v = $m[preg_match('/APP_VERSION="(.+?)"/', $response, $m)];
+        */
+
+
+        $this->taxv = '1.1';
+        $this->tidt = 'easku';
+        $this->sku = sku; # or re.search('enums.SKU.FUT="(.+?)"', rc).group(1)
+        $this->rel = release_type;
+        $this->gid = '0';
+        $this->plat = 'web';  # where is it? WEB:?
+        $this->et = 'client';
+        $this->pidt = 'persona';
+        $this->v = '20.0.0';
 
         //headers
         $this->headers = [
